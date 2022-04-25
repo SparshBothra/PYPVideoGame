@@ -24,14 +24,22 @@
 }
 
 ul {
+    padding-top: 6vh;
     float: right;
+    padding-right: 90px;
 }
 
 ul li {
     list-style-type: none;
     display: inline-block;
+    padding-right: 55px;
 }
 
 ul li a {
     text-decoration: none;
+}
+
+.Logo {
+    height: 8vh;
+    width: auto;
 }
