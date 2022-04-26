@@ -58,3 +58,19 @@ ul li a {
     font-size: 95px;
     width: 85vw;
 }
+
+.First {
+    margin-left: 14vw;
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.Second {
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.Third {
+    margin-right: 14vw;
+    width: 20vw;
+}
