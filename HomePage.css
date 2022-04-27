@@ -63,31 +63,80 @@ ul li a {
 
 .Image {
     border-radius: 3%;
+    height: 25vh;
 }
 
 .First {
     margin-left: 14vw;
     width: 20vw;
     margin-right: 5vw;
+    transition: .5s ease-in-out;
 }
 
 .First:hover {
-    opacity: .6;
+    opacity: .5;
 }
 
 
 .Second {
     width: 20vw;
     margin-right: 5vw;
+    transition: .5s ease-in-out;
 }
+
+.Second:hover {
+    opacity: .5;
+}
+
 
 .Third {
     margin-right: 14vw;
     width: 20vw;
+    transition: .5s ease-in-out;
+}
+
+.Third:hover {
+    opacity: .5;
 }
 
 
 .Container2 {
     margin-top: 100px;
-    margin-bottom: 100px;
+    height: 25vh;
+    display: flex;
+}
+
+.Cyan {
+    color:cyan;
+}
+
+.Additions {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.box1 {
+    margin-left: 14vw;
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.box2 {
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.box3 {
+    margin-right: 14vw;
+    width: 20vw;
+}
+
+.Container3 {
+    margin-top: 30px;
+    height: 25vh;
+    display: flex;
+}
+
+.undertext {
+    color: #7E7E7E;
 }
