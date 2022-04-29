@@ -24,7 +24,7 @@
 }
 
 .Active {
-    color:cyan;
+    color:#00e8ff;
 }
 
 ul {
@@ -101,13 +101,13 @@ ul li a {
 
 
 .Container2 {
-    margin-top: 100px;
+    margin-top: 70px;
     height: 25vh;
     display: flex;
 }
 
 .Cyan {
-    color:cyan;
+    color:#00e8ff;
 }
 
 .Additions {
@@ -139,4 +139,44 @@ ul li a {
 
 .undertext {
     color: #7E7E7E;
+}
+
+.Footer {
+    height: 32vh;
+    width: 100vw;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cyanfoot {
+    transition: .7s;
+    font-size: 19px;
+    color: #7E7E7E;
+}
+
+.cyanfoot:hover {
+    color: #00e8ff;
+}
+
+.HalfFooter {
+    padding-left: 17vw;
+    width: 50vw;
+}
+
+.SecondHalfFooter {
+    padding-right: 14vw;
+    width: 30vw;
+}
+
+.sub {
+    margin-left: 2vw;
+    font-size: 17px;
+    margin-top: 12px;
 }
