@@ -161,17 +161,28 @@ a {
     color: #7E7E7E;
 }
 
+.cyanfoothead {
+    color: #00e8ff;
+    opacity: .8;
+    transition: .2s;
+    padding-bottom: 7px;
+}
+
+.cyanfoothead:hover {
+    color: #00e8ff;
+    opacity: 1;
+}
+
 .cyanfoot:hover {
     color: #00e8ff;
 }
 
-.HalfFooter {
+.ThirdFooter {
     padding-left: 17vw;
-    width: 50vw;
+    width: 25vw;
 }
 
-.SecondHalfFooter {
-    padding-right: 14vw;
+.TwoThirdsFooter {
     width: 30vw;
 }
 
@@ -179,4 +190,38 @@ a {
     margin-left: 2vw;
     font-size: 17px;
     margin-top: 12px;
+}
+
+.SocialTwitter {
+    height: 4vh;
+    width: 2vw;
+    opacity: 0.9;
+    transition: .7s;
+}
+
+.SocialTwitter:hover {
+    opacity: .6;
+}
+
+.SocialInstagram {
+    height: 4vh;
+    width: 2.55vw;
+    opacity: 0.9;
+    transition: .7s;
+}
+
+.SocialInstagram:hover {
+    opacity: .6;
+}
+
+.SocialYoutube {
+    height: 4vh;
+    width: 2.5vw;
+    opacity: 0.9;
+    margin-left: -10px;
+    transition: .7s;
+}
+
+.SocialYoutube:hover {
+    opacity: .6;
 }
