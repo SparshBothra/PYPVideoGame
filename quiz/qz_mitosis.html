@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../print.css" type="text/css" media="print" />
+<meta name="description" content="Quiz over mitosis covering its phases, the number of chromosomes involved and structures within the cell related to mitosis.">
+<title>Quiz: Mitosis </title>
+<script type="text/javascript">
+<!--
+
+var numQues = 10;
+var numChoi = 4;
+
+var answers = new Array(10);
+answers[0] = "anaphase";
+answers[1] = "centriole";
+answers[2] = "prophase";
+answers[3] = "2, 10";
+answers[4] = "spindle";
+answers[5] = "telophase";
+answers[6] = "they become too large";
+answers[7] = "anaphase";
+answers[8] = "interphase";
+answers[9] = "chromatids";
+
+function getScore(form) {
+  var score = 0;
+  var currElt;
+  var currSelection;
+
+  for (i=0; i<numQues; i++) {
+    currElt = i*numChoi;
+    for (j=0; j<numChoi; j++) {
+      currSelection = form.elements[currElt + j];
+      if (currSelection.checked) {
+        if (currSelection.value == answers[i]) {
+          score++;
+          break;
+        }
+      }
+    }
+  }
+
+  score = Math.round(score/numQues*100);
+  form.percentage.value = score + "%";
+
+  var correctAnswers = "";
+  for (i=1; i<=numQues; i++) {
+    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  }
+  form.solutions.value = correctAnswers;
+
+}
+
+// -->
+</script>
+<style type="text/css">
+<!--
+#wrapper {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapper .rightside {
+	float: right;
+	height: auto;
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 12px;
+}
+.footer {
+	margin-top: 4px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 4px;
+                font-size: 90%;
+}
+.footerbox {
+	height: 90px;
+	width: 728px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.adbox {
+	float: right;
+	height: 250px;
+	width: 300px;
+}
+-->
+</style>
+</head>
+<body>
+<div id="wrapper">
+<h2>Quiz: Mitosis</h2>
+<form name="quiz" action="post">
+<p>1. Examine the picture of the cell. What phase is the cell in?<br />
+<input type="radio" name="q1" value="prophase">prophase<br />
+<input type="radio" name="q1" value="anaphase">anaphase<br />
+<input type="radio" name="q1" value="metaphase">metaphase<br />
+<input type="radio" name="q1" value="telophase">telophase</p>
+<p> 2. What is the structure labeled &quot;X&quot; on the picture?<br />
+<input type="radio" name="q2" value="centriole">centriole<br />
+<input type="radio" name="q2" value="spindle">spindle<br />
+<input type="radio" name="q2" value="chromosome">chromosome<br />
+<input type="radio" name="q2" value="chromatid">chromatid</p>
+<p>3. During which phase do chromosome first become visible?<br />
+<input type="radio" name="q3" value="interphase">interphase<br />
+<input type="radio" name="q3" value="telophase">telophase<br />
+<input type="radio" name="q3" value="metaphase">metaphase<br />
+<input type="radio" name="q3" value="prophase">prophase</p>
+<p> 4. A cell with 10 chromosomes undergoes mitosis. How many daughter cells are created? ___ Each daughter
+cell has ___ chromosomes. <br />
+<input type="radio" name="q4" value="2, 10">2, 10<br />
+<input type="radio" name="q4" value="10, 2">10, 2<br />
+<input type="radio" name="q4" value="1, 10">1, 10<br />
+<input type="radio" name="q4" value="2, 20">2, 20</p>
+<p>5. What structure is responsible for moving the chromosomes during mitosis?<br />
+<input type="radio" name="q5" value="nucleolus">nucleolus<br />
+<input type="radio" name="q5" value="nuclear membrane">nuclear membrane<br />
+<input type="radio" name="q5" value="spindle">spindle<br />
+<input type="radio" name="q5" value="cytoplasm">cytoplasm</p>
+<p>6. Cytokinesis begins in which phase?<br />
+<input type="radio" name="q6" value="metaphase">metaphase<br />
+<input type="radio" name="q6" value="telophase">telophase<br />
+<input type="radio" name="q6" value="prophase">prophase<br />
+<input type="radio" name="q6" value="anaphase">anaphase</p>
+<div class="adbox">
+<div id="waldo-tag-721"></div>
+</div>
+<p>7. Cells will generally divide when?<br />
+<input type="radio" name="q7" value="they are 10 hours old">they are 10 hours old<br />
+<input type="radio" name="q7" value="they become infected">they become infected<br />
+<input type="radio" name="q7" value="they become too large">they become too large<br />
+<input type="radio" name="q7" value="they have no food">they have no food</p>
+<p>8. Which phase occurs directly after metaphase?<br />
+<input type="radio" name="q8" value="anaphase">anaphase<br />
+<input type="radio" name="q8" value="telophase">telophase<br />
+<input type="radio" name="q8" value="metaphase">metaphase<br />
+<input type="radio" name="q8" value="prophase">prophase</p>
+<p>9. During which phase does the DNA make a copy of itself?<br />
+<input type="radio" name="q9" value="prophase">prophase<br />
+<input type="radio" name="q9" value="metaphase">metaphase<br />
+<input type="radio" name="q9" value="interphase">interphase<br />
+<input type="radio" name="q9" value="anaphase">anaphase</p>
+<p> 10. Each chromosome consists of 2 _____.<br />
+<input type="radio" name="q10" value="centrofibers">centrofibers<br />
+<input type="radio" name="q10" value="chromatids">chromatids<br />
+<input type="radio" name="q10" value="daughter cells">daughter cells<br />
+<input type="radio" name="q10" value="centrioles">centrioles</p>
+<p> <input type="button" value="Get score" onClick="getScore(this.form)">
+<input type="reset" value="Clear">
+Score =
+<input type=text size=15 name="percentage">
+<br />
+Correct answers:<br />
+<textarea name="solutions" rows="4" cols="40"></textarea></p>
+<p>&nbsp;</p>
+</form>
+</div>
+</body></html>

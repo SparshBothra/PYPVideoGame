@@ -49,10 +49,6 @@
                     {
                         echo "connection failed";
                     }
-
-                    $User = $_POST['user']
-                    $Navigationfb = $_POST['navigationfb']
-
                     
                     ?>
             </div>
