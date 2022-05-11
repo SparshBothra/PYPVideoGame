@@ -56,6 +56,26 @@ ul li a {
     font-size: 19px;
 }
 
+.OverSubHeadingStudy {
+    font-size: 50px;
+}
+.Container1Study {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.sides {
+    width:32.5vw;
+}
+
+.center {
+    width: 35vw;
+}
+
+
+
 .Heading {
     font-size: 95px;
     width: 85vw;
@@ -67,8 +87,8 @@ ul li a {
 }
 
 .First {
-    margin-left: 14vw;
-    width: 20vw;
+    margin-left: 11vw;
+    width: 22.3vw;
     margin-right: 5vw;
     transition: .5s ease-in-out;
 }
@@ -79,7 +99,7 @@ ul li a {
 
 
 .Second {
-    width: 20vw;
+    width: 22.3vw;
     margin-right: 5vw;
     transition: .5s ease-in-out;
 }
@@ -90,8 +110,8 @@ ul li a {
 
 
 .Third {
-    margin-right: 14vw;
-    width: 20vw;
+    margin-right: 11vw;
+    width: 22.3vw;
     transition: .5s ease-in-out;
 }
 
@@ -102,8 +122,9 @@ ul li a {
 
 .Container2 {
     margin-top: 70px;
-    height: 25vh;
+    height: 24vh;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .Cyan {
@@ -224,4 +245,8 @@ a {
 
 .SocialYoutube:hover {
     opacity: .6;
+}
+
+.last {
+    padding-bottom: 100px;
 }
