@@ -86,6 +86,16 @@ ul li a {
     height: 25vh;
 }
 
+.Video {
+    height: 25vh;
+}
+
+.FirstV {
+    margin-left: 11vw;
+    width: 22.3vw;
+    margin-right: 5vw;
+}
+
 .First {
     margin-left: 11vw;
     width: 22.3vw;
@@ -136,14 +146,17 @@ ul li a {
     width: 22.3vw;
 }
 
-
-
 .Container2Alt {
     margin-top: 50px;
     display: flex;
-    margin-bottom: 40px;
 }
 
+.Container2Alt2 {
+    margin-top: 40px;
+    height: 24vh;
+    display: flex;
+    margin-bottom: 130px;
+}
 
 .Container2 {
     margin-top: 70px;
@@ -239,10 +252,14 @@ a {
     width: 30vw;
 }
 
-.sub {
-    margin-left: 2vw;
+.subb {
+    color: #7E7E7E;
     font-size: 17px;
-    margin-top: 12px;
+    margin-top: 7px
+}
+
+.Programiz {
+    color: #7E7E7E;
 }
 
 .SocialTwitter {
@@ -281,4 +298,8 @@ a {
 
 .last {
     padding-bottom: 100px;
+}
+
+.sep {
+    padding-bottom: 200px;
 }
