@@ -120,6 +120,31 @@ ul li a {
 }
 
 
+.TextFirst {
+    margin-left: 11vw;
+    width: 22.3vw;
+    margin-right: 5vw;
+}
+
+.TextSecond {
+    width: 22.3vw;
+    margin-right: 5vw;
+}
+
+.TextThird {
+    margin-right: 11vw;
+    width: 22.3vw;
+}
+
+
+
+.Container2Alt {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
 .Container2 {
     margin-top: 70px;
     height: 24vh;
@@ -166,6 +191,7 @@ ul li a {
     height: 32vh;
     width: 100vw;
     display: flex;
+    margin-top: 770px;
 }
 
 a {
