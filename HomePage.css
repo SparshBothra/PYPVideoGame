@@ -191,6 +191,12 @@ ul li a {
     height: 32vh;
     width: 100vw;
     display: flex;
+}
+
+.Footerdiff {
+    height: 32vh;
+    width: 100vw;
+    display: flex;
     margin-top: 770px;
 }
 
