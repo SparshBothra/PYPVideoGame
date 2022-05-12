@@ -231,6 +231,7 @@ ul li a {
     width: 100vw;
     display: flex;
     margin-top: 770px;
+    margin-bottom: 70px;
 }
 
 a {
@@ -344,4 +345,9 @@ a {
 
 .Right {
     width: 35vw;
+}
+
+
+.Subspace {
+    margin-top: 5vh;
 }
