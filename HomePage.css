@@ -66,6 +66,11 @@ ul li a {
     padding-bottom: 90px;
 }
 
+.Container1MCQ {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+}
 .sides {
     width:32.5vw;
 }
@@ -86,7 +91,7 @@ ul li a {
     height: 25vh;
 }
 
-.Video {
+.VideoB {
     height: 25vh;
 }
 
@@ -160,9 +165,9 @@ ul li a {
 
 .Container2 {
     margin-top: 70px;
-    height: 24vh;
+    height: 25vh;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .Cyan {
@@ -200,10 +205,25 @@ ul li a {
     color: #7E7E7E;
 }
 
+.one {
+    padding-right: 3.5vw;
+}
+
+.three {
+    padding-left: 6vw;
+}
+
 .Footer {
     height: 32vh;
     width: 100vw;
     display: flex;
+}
+
+.Footerdiff2 {
+    height: 32vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 1500px;
 }
 
 .Footerdiff {
@@ -302,4 +322,26 @@ a {
 
 .sep {
     padding-bottom: 200px;
+}
+
+.Answers {
+    margin-left: 2vw;
+}
+
+.Cont3split {
+    width: 100vw;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.Left {
+    width: 35vw;
+}
+
+.Center2 {
+    width: 30vw;
+}
+
+.Right {
+    width: 35vw;
 }
